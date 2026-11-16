@@ -1,0 +1,23 @@
+Portal assignment
+
+Scene: Unity26Fall/Assets/Scenes/New Scene.unity
+Video: Portal_Effect.mp4 (1920 x 1080, 30 fps, 15 seconds)
+
+The scene includes inward-moving particle streaks/trails and pink petals,
+a short opening animation revealing a separate forest environment inside
+a masked hemisphere, and animated cyan/lavender/white emissive layers.
+The forest follows the tutorial's textured hemisphere + SpriteMask technique.
+It is a visual environment backdrop, not a teleportation system.
+
+Validation: Unity compiled the shaders and scripts. All portal particle
+systems emitted particles. 37/37 sampled petals moved toward the portal;
+the collision probe confirmed that petals disappear at the portal mouth.
+The exported video was rendered in Play Mode.
+
+Forest texture source
+The teacher's original forest image was absent from the project. A replacement
+was generated with the built-in image generation tool, then imported as:
+Unity26Fall/Assets/TutorialInfo/FX/Textures/FX_TEX_PortalForest.png
+
+Generation prompt:
+Create a finished game environment texture, a wide 2:1 panoramic fantasy forest landscape to be displayed inside a circular magical portal in a Unity VFX assignment. Painterly high quality fantasy environment concept art: towering ancient twisted moss-covered trunks framing left and right edges, intricate hanging roots and vines, a clear central winding path and shallow reflective stream leading deeply into a mysterious luminous golden green clearing, teal blue atmospheric depth, small luminous plants and scattered subtle warm motes. The center must show distinct distant space, not a close-up tree trunk. Rich natural olive greens, deep teal shadows, warm pale gold sunlight, clear spatial depth, no portal ring or portal frame in the image itself. Scene seen at eye level, usable as a background on the inside of a hemispherical mesh. Fill the entire rectangular image, no text, no people, no interface, no watermark, no borders. Broad readable shapes, balanced contrast, visual style of polished fantasy game environment painting.
